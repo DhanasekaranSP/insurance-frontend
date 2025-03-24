@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+.filters-section {
+  width: 250px;
+  padding: 16px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.results-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.results-card {
+  padding: 16px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background: white;
+}
+
+.policy-row {
+  background: #fafafa;
+}
+
+.loading-container,
+.no-data-container {
+  text-align: center;
+  padding: 20px;
+}
